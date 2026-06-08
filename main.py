@@ -1,3 +1,16 @@
+###
+Create main.py
+How to Run This Locally
+Check for new SDK installed: pip install google-genai
+
+Set your API Key in your terminal: export GEMINI_API_KEY="your-key-here" (or $env:GEMINI_API_KEY="your-key-here" if you are using Windows PowerShell).
+
+Run it using: python main.py
+
+Test: Enter example "I'm setting up a new Python fastAPI app", Orbit State Matrix dynamically formats the top of the output.
+
+###
+
 import os
 import sys
 from google import genai
